@@ -22,8 +22,6 @@ Gets mindware text file from the mindware device, and gets jetson signal CSV fil
 ### merge_GPS_of_day.py 
 - Merges all GPS csv files to one sorted file.  
 - Saves data at "logs/local_GPS" folder with the name "final_GPS.csv".  
-- Activate with `gps_sort`.  
-
 
 # Tehila  
 ### signal.launch  
