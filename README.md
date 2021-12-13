@@ -29,4 +29,4 @@ Gets mindware text file from the mindware device, and gets jetson signal CSV fil
 ### signal.launch  
 - Start transmit signal from the jetson to the mindware, by starting new_sub.py and mindwars.py.   
 - Saves data at "logs" folder with timestamp.  
-- Activate with `start`.  
+- Activate with `start`.  and control+C to end  
