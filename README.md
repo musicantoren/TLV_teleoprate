@@ -1,5 +1,5 @@
 ### sort.py
-Python script for sort and merge data of TLV teleoprate  
+Python script for offline processing, sort and merge data from GPS and Mindware of TLV teleoprate experiment.  
   
 **GPS_df("GPS_record.csv"):**  
 Gets the GPS record file (csv) of all the day. Create CSV file for GPS record with timestamp,named "GPS_data_clock.csv".
