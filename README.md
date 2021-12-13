@@ -28,5 +28,5 @@ Gets mindware text file from the mindware device, and gets jetson signal CSV fil
 # Tehila  
 ### signal.launch  
 - Start transmit signal from the jetson to the mindware, by starting new_sub.py and mindwars.py.   
-- Saves data at "logs" folder with timestamp.  
+- Saves data at "logs/jetson_signal" folder with timestamp.  
 - Activate with `start`.  and control+C to end  
