@@ -19,16 +19,14 @@ Gets mindware text file from the mindware device, and gets jetson signal CSV fil
 - Saves data at "logs/local_GPS" folder with timestamp.  
 - Activate with `gps_save`.  
 
-
-### signal.launch  
-- Start transmit signal from the jetson to the mindware, by starting new_sub.py and mindwars.py.   
-- Saves data at "logs" folder with timestamp.  
-- Activate with `start`.  
-
-
 ### merge_GPS_of_day.py 
 - Merges all GPS csv files to one sorted file.  
 - Saves data at "logs/local_GPS" folder with the name "final_GPS.csv".  
 - Activate with `gps_sort`.  
 
 
+# Tehila  
+### signal.launch  
+- Start transmit signal from the jetson to the mindware, by starting new_sub.py and mindwars.py.   
+- Saves data at "logs" folder with timestamp.  
+- Activate with `start`.  
