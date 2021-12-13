@@ -9,7 +9,7 @@ Gets the GPS record file (csv) of all the day. Create CSV file for GPS record wi
 Gets mindware text file from the mindware device, and gets jetson signal CSV file. Create CSV file of mindware signal with timestamp, named "merged_" and mindware file name.     
 
 ## Jetson system files  
-
+# Start of the day omer
 ### gps_only.launch  
 - Start connection to the GPS.  
 - Activate with `gps_start`.  
@@ -18,7 +18,7 @@ Gets mindware text file from the mindware device, and gets jetson signal CSV fil
 - Start saving all GPS data to the jetson in 30 minute intervals.  
 - Saves data at "logs/local_GPS" folder with timestamp.  
 - Activate with `gps_save`.  
-
+# End of the day omer
 ### merge_GPS_of_day.py 
 - Merges all GPS csv files to one sorted file.  
 - Saves data at "logs/local_GPS" folder with the name "final_GPS.csv".  
