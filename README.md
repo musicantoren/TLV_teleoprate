@@ -1,4 +1,4 @@
-# TLV_teleoprate
+#**sort.py**  
 **GPS_df("GPS_record.csv"):**  
 gets the GPS record file (csv) of all the day. Create CSV file for GPS record with timestamp.
 
