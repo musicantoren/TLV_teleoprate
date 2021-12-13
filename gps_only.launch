@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+   <node pkg="applanix_gnss" name="read_gsof_node" type="read_gsof" output="screen" />
+   <node pkg="applanix_gnss" name="parse_gsof_node" type="parse_gsof" output="screen" />
+
+</launch>

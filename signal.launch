@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="control" name="Mindware" type="mindwars.py" output="screen" />
+  <node pkg="control" name="ReadNode" type="new_sub.py" output="screen" />
+</launch>
