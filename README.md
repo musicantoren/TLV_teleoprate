@@ -11,10 +11,14 @@ Gets mindware text file from the mindware device, and gets jetson signal CSV fil
 Start connection to the GPS.  
 
 ### rosbag_csv.py  
-Start saving all GPS data to the jetson in 30 minute intervals.
+Start saving all GPS data to the jetson in 30 minute intervals.  
+Saves data at "logs/local_GPS" folder with timestamp.
 
 ### signal.launch  
-Start transmit signal from the jetson to the mindware, by starting new_sub.py and mindwars.py.  
+Start transmit signal from the jetson to the mindware, by starting new_sub.py and mindwars.py. 
+Saves data at "logs" folder with timestamp.
 
 ### merge_GPS_of_day.py 
-Merges all GPS csv files to one sorted file. 
+Merges all GPS csv files to one sorted file.  
+Saves data at "logs/local_GPS" folder with the name "final_GPS.csv".
+
